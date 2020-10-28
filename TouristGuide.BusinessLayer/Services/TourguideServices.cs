@@ -25,8 +25,8 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns>List of Destination</returns>
         public IList<Destination> DestinationList()
         {
-            var destination = _tgRepository.DestinationList();
-            return destination;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get Place by Destination id as well all placce on Index page of Tourist controller
@@ -35,8 +35,8 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Place>> GetAllPlaces(int? Id)
         {
-            var allplace = await _tgRepository.GetAllPlaces(Id);
-            return allplace;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get place details on clicking Continue reading link on place view
@@ -45,8 +45,8 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Place> GetPlaceById(int placeId)
         {
-            var place = await _tgRepository.GetPlaceById(placeId);
-            return place;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Hire a tour guide for better assistant while traveling
@@ -55,8 +55,8 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<TourGuide> HireTourGuide(TourGuide tourGuide)
         {
-            var tourguide = await _tgRepository.HireTourGuide(tourGuide);
-            return tourguide;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Some quick information about india for visitor from InMemory Db
@@ -64,8 +64,8 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<AboutIndia>> KnowAboutIndia()
         {
-            var result = await _tgRepository.KnowAboutIndia();
-            return result;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Place by Attraction tho show on while search in Db Collection
@@ -74,8 +74,8 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Place>> PlaceByAttraction(string name)
         {
-            var place = await _tgRepository.PlaceByAttraction(name);
-            return place;
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Show your some quick information and Tour Guide Booking Id
@@ -84,8 +84,8 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<TourGuide>> TourGuideInformation(int tourId)
         {
-            var result = await _tgRepository.TourGuideInformation(tourId);
-            return result;
+            //Do code here
+            throw new NotImplementedException();
         }
     }
 }

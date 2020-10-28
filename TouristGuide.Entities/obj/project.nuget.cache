@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IoViN3TvdtTl6DC6GnZzI9dELWq3amP8AMl/OTTgZW9jMaSRKaaZG0cRUh9kABn9NEBTgYEnyjou7oWiMry60g==",
+  "dgSpecHash": "9smlxcZ4KF2ZBkv5PLqGFtp3781tTt45oTK50j4VZFycMqi4uF7eFG78b5IaEpTOzP/kKNqNC3gnHGo6dkJSlQ==",
   "success": true,
-  "projectFilePath": "D:\\IIHT\\Task-11\\InMemory\\TouristGuide.Entities\\TouristGuide.Entities.csproj",
+  "projectFilePath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_JR_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Users\\KUMARUMA\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

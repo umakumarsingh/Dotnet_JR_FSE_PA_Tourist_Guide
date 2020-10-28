@@ -29,26 +29,8 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> Index(int? id, string search, int page = 1)
         {
-            if (search != null)
-            {
-                var intView = new PlaceViewModel
-                {
-                    PlacePerPage = 2,
-                    Places = await _tgServices.PlaceByAttraction(search),
-                    CurrentPage = page
-                };
-                return View(intView);
-            }
-            else
-            {
-                var intView = new PlaceViewModel
-                {
-                    PlacePerPage = 2,
-                    Places = await _tgServices.GetAllPlaces(id),
-                    CurrentPage = page
-                };
-                return View(intView);
-            }
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Get place full details using this method, on details view
@@ -58,8 +40,8 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(int placeId)
         {
-            var place = await _tgServices.GetPlaceById(placeId);
-            return View(place);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Hire a tour Guide
@@ -78,20 +60,8 @@ namespace TouristGuide.Controllers
         [HttpPost]
         public async Task<IActionResult> HireTourGuide(TourGuide tourGuide)
         {
-            if (ModelState.IsValid)
-            {
-                TourGuide guide = new TourGuide
-                {
-                    Name = tourGuide.Name,
-                    Phone = tourGuide.Phone,
-                    Email = tourGuide.Email,
-                    Experience = tourGuide.Experience,
-                    Remark = tourGuide.Remark
-                };
-                var result = await _tgServices.HireTourGuide(tourGuide);
-                return RedirectToAction("TourGuideInfo", "Tourist", new { tourId = result.TourId });
-            }
-            return View();
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Tour Guide Infromation
@@ -101,8 +71,8 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> TourGuideInfo(int tourId)
         {
-            var tourGuide = await _tgServices.TourGuideInformation(tourId);
-            return View(tourGuide);
+            //Do code here
+            throw new NotImplementedException();
         }
         /// <summary>
         /// Know about India Vist using this method
@@ -111,8 +81,8 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> AboutIndia()
         {
-            var about = await _tgServices.KnowAboutIndia();
-            return View(about);
+            //Do code here
+            throw new NotImplementedException();
         }
         [HttpGet]
         public IActionResult ContactUs()
