@@ -9,6 +9,7 @@ using TouristGuide.BusinessLayer.Services;
 using TouristGuide.BusinessLayer.Services.Repository;
 using TouristGuide.Entities;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace TouristGuide.Test.TestCases
 {
@@ -17,15 +18,17 @@ namespace TouristGuide.Test.TestCases
         /// <summary>
         /// Creating Referance Variable of Service Interface and Mocking Repository Interface and class
         /// </summary>
+        private readonly ITestOutputHelper _output;
         private readonly ITourguideServices _TourServices;
         public readonly Mock<ITourguideRepository> service = new Mock<ITourguideRepository>();
         private readonly Place _place;
         private readonly Destination _destination;
         private readonly TourGuide _tourGuide;
         private readonly AboutIndia _aboutIndia;
-        public FuctionalTests()
+        public FuctionalTests(ITestOutputHelper output)
         {
             //Creating New mock Object with value.
+            _output = output;
             _TourServices = new TourguideServices(service.Object);
             _place = new Place()
             {
@@ -97,15 +100,36 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
-            var result = await _TourServices.HireTourGuide(_tourGuide);
-            if (result != null)
+            try
             {
-                res = true;
+                service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
+                var result = await _TourServices.HireTourGuide(_tourGuide);
+                if (result != null)
+                {
+                    res = true;
+                }
             }
-            //Asert
-            //final result displaying in text file
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_Validate_Valid_HireTourGuide=" + res + "\n");
+                return false;
+            }
+            //Assert
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_Validate_Valid_HireTourGuide=" + res + "\n");
             return res;
         }
@@ -118,16 +142,37 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             var res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Action
-            service.Setup(repos => repos.GetAllPlaces(_place.PlaceId));
-            var result = await _TourServices.GetAllPlaces(_place.PlaceId);
-            //Assertion
-            if (result != null)
+            try
             {
-                res = true;
+                service.Setup(repos => repos.GetAllPlaces(_place.PlaceId));
+                var result = await _TourServices.GetAllPlaces(_place.PlaceId);
+                //Assertion
+                if (result != null)
+                {
+                    res = true;
+                }
+            }
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_GetAllPlaces=" + res + "\n");
+                return false;
             }
             //Assert
-            //final result displaying in text file
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_GetAllPlaces=" + res + "\n");
             return res;
         }
@@ -140,16 +185,37 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             var res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Action
-            service.Setup(repos => repos.GetPlaceById(_place.PlaceId)).ReturnsAsync(_place);
-            var result = await _TourServices.GetPlaceById(_place.PlaceId);
-            //Assertion
-            if (result != null)
+            try
             {
-                res = true;
+                service.Setup(repos => repos.GetPlaceById(_place.PlaceId)).ReturnsAsync(_place);
+                var result = await _TourServices.GetPlaceById(_place.PlaceId);
+                //Assertion
+                if (result != null)
+                {
+                    res = true;
+                }
+            }
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_GetPlaceById=" + res + "\n");
+                return false;
             }
             //Assert
-            //final result displaying in text file
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_GetPlaceById=" + res + "\n");
             return res;
         }
@@ -162,16 +228,37 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             var res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Action
-            service.Setup(repos => repos.PlaceByAttraction(_place.Attraction));
-            var result = await _TourServices.PlaceByAttraction(_place.Attraction);
-            //Assertion
-            if (result != null)
+            try
             {
-                res = true;
+                service.Setup(repos => repos.PlaceByAttraction(_place.Attraction));
+                var result = await _TourServices.PlaceByAttraction(_place.Attraction);
+                //Assertion
+                if (result != null)
+                {
+                    res = true;
+                }
+            }
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_PlaceByAttraction=" + res + "\n");
+                return false;
             }
             //Assert
-            //final result displaying in text file
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_PlaceByAttraction=" + res + "\n");
             return res;
         }
@@ -184,16 +271,37 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             var res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Action
-            service.Setup(repos => repos.KnowAboutIndia());
-            var result = await _TourServices.KnowAboutIndia();
-            //Assertion
-            if (result != null)
+            try
             {
-                res = true;
+                service.Setup(repos => repos.KnowAboutIndia());
+                var result = await _TourServices.KnowAboutIndia();
+                //Assertion
+                if (result != null)
+                {
+                    res = true;
+                }
+            }
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_KnowAboutIndia=" + res + "\n");
+                return false;
             }
             //Assert
-            //final result displaying in text file
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_KnowAboutIndia=" + res + "\n");
             return res;
         }
@@ -206,16 +314,37 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             var res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Action
-            service.Setup(repos => repos.DestinationList());
-            var result = _TourServices.DestinationList();
-            //Assertion
-            if (result != null)
+            try
             {
-                res = true;
+                service.Setup(repos => repos.DestinationList());
+                var result = _TourServices.DestinationList();
+                //Assertion
+                if (result != null)
+                {
+                    res = true;
+                }
+            }
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_GetDestinationList=" + res + "\n");
+                return false;
             }
             //Assert
-            //final result displaying in text file
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_GetDestinationList=" + res + "\n");
             return res;
         }
@@ -228,16 +357,37 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             var res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Action
-            service.Setup(repos => repos.TourGuideInformation(_tourGuide.TourId));
-            var result = await _TourServices.TourGuideInformation(_tourGuide.TourId);
-            //Assertion
-            if (result != null)
+            try
             {
-                res = true;
+                service.Setup(repos => repos.TourGuideInformation(_tourGuide.TourId));
+                var result = await _TourServices.TourGuideInformation(_tourGuide.TourId);
+                //Assertion
+                if (result != null)
+                {
+                    res = true;
+                }
+            }
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_TourGuideInformation=" + res + "\n");
+                return false;
             }
             //Assert
-            //final result displaying in text file
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_revised.txt", "Testfor_TourGuideInformation=" + res + "\n");
             return res;
         }

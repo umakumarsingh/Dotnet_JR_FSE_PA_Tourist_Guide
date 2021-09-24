@@ -1,8 +1,6 @@
 ﻿using Moq;
 using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using TouristGuide.BusinessLayer.Interfaces;
@@ -10,6 +8,7 @@ using TouristGuide.BusinessLayer.Services;
 using TouristGuide.BusinessLayer.Services.Repository;
 using TouristGuide.Entities;
 using Xunit;
+using Xunit.Abstractions;
 
 namespace TouristGuide.Test.TestCases
 {
@@ -18,15 +17,17 @@ namespace TouristGuide.Test.TestCases
         /// <summary>
         /// Creating Referance Variable of Service Interface and Mocking Repository Interface and class
         /// </summary>
+        private readonly ITestOutputHelper _output;
         private readonly ITourguideServices _TourServices;
         public readonly Mock<ITourguideRepository> service = new Mock<ITourguideRepository>();
         private readonly Place _place;
         private readonly Destination _destination;
         private readonly TourGuide _tourGuide;
         private readonly AboutIndia _aboutIndia;
-        public BoundaryTest()
+        public BoundaryTest(ITestOutputHelper output)
         {
             //Creating New mock Object with value.
+            _output = output;
             _TourServices = new TourguideServices(service.Object);
             _place = new Place()
             {
@@ -95,15 +96,36 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
-            var result = await _TourServices.HireTourGuide(_tourGuide);
-            if (result.TourId == _tourGuide.TourId)
+            try
             {
-                res = true;
+                service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
+                var result = await _TourServices.HireTourGuide(_tourGuide);
+                if (result.TourId == _tourGuide.TourId)
+                {
+                    res = true;
+                }
             }
-            //Asert
-            //final result displaying in text file
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourId=" + res + "\n");
+                return false;
+            }
+            //Assert
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourId=" + res + "\n");
             return res;
         }
@@ -116,15 +138,36 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
-            var result = await _TourServices.HireTourGuide(_tourGuide);
-            if (result.Name != "")
+            try
             {
-                res = true;
+                service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
+                var result = await _TourServices.HireTourGuide(_tourGuide);
+                if (result.Name != "")
+                {
+                    res = true;
+                }
             }
-            //Asert
-            //final result displaying in text file
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideName_NotEmpty=" + res + "\n");
+                return false;
+            }
+            //Assert
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideName_NotEmpty=" + res + "\n");
             return res;
         }
@@ -137,15 +180,36 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
-            var result = await _TourServices.HireTourGuide(_tourGuide);
-            if (result.Address != "")
+            try
             {
-                res = true;
+                service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
+                var result = await _TourServices.HireTourGuide(_tourGuide);
+                if (result.Address != "")
+                {
+                    res = true;
+                }
             }
-            //Asert
-            //final result displaying in text file
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideAddress_NotEmpty=" + res + "\n");
+                return false;
+            }
+            //Assert
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideAddress_NotEmpty=" + res + "\n");
             return res;
         }
@@ -158,15 +222,36 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
-            var result = await _TourServices.HireTourGuide(_tourGuide);
-            if (result.Experience != "")
+            try
             {
-                res = true;
+                service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
+                var result = await _TourServices.HireTourGuide(_tourGuide);
+                if (result.Experience != "")
+                {
+                    res = true;
+                }
             }
-            //Asert
-            //final result displaying in text file
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideExperience_NotEmpty=" + res + "\n");
+                return false;
+            }
+            //Assert
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideExperience_NotEmpty=" + res + "\n");
             return res;
         }
@@ -179,15 +264,36 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
-            var result = await _TourServices.HireTourGuide(_tourGuide);
-            if (result.Remark != "")
+            try
             {
-                res = true;
+                service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
+                var result = await _TourServices.HireTourGuide(_tourGuide);
+                if (result.Remark != "")
+                {
+                    res = true;
+                }
             }
-            //Asert
-            //final result displaying in text file
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideRemark_NotEmpty=" + res + "\n");
+                return false;
+            }
+            //Assert
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_Validate_TourGuideRemark_NotEmpty=" + res + "\n");
             return res;
         }
@@ -200,16 +306,37 @@ namespace TouristGuide.Test.TestCases
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
-            var result = await _TourServices.HireTourGuide(_tourGuide);
-            var actualLength = _tourGuide.Phone.ToString().Length;
-            if (result.Phone.ToString().Length == actualLength)
+            try
             {
-                res = true;
+                service.Setup(repo => repo.HireTourGuide(_tourGuide)).ReturnsAsync(_tourGuide);
+                var result = await _TourServices.HireTourGuide(_tourGuide);
+                var actualLength = _tourGuide.Phone.ToString().Length;
+                if (result.Phone.ToString().Length == actualLength)
+                {
+                    res = true;
+                }
             }
-            //Asert
-            //final result displaying in text file
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_ValidateMobileNumber=" + res + "\n");
+                return false;
+            }
+            //Assert
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_ValidateMobileNumber=" + res + "\n");
             return res;
         }
@@ -217,17 +344,39 @@ namespace TouristGuide.Test.TestCases
         /// Testfor_ValidEmail used for test the valid Email
         /// </summary>
         [Fact]
-        public async void Testfor_ValidEmail()
+        public async Task<bool> Testfor_ValidEmail()
         {
             //Arrange
             bool res = false;
+            string testName;
+            testName = TestUtils.GetCurrentMethodName();
             //Act
-            bool isEmail = Regex.IsMatch(_tourGuide.Email, @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase);
+            try
+            {
+                bool isEmail = Regex.IsMatch(_tourGuide.Email, @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z", RegexOptions.IgnoreCase);
+                Assert.True(isEmail);
+                res = isEmail;
+            }
+            catch(Exception)
+            {
+                //Assert
+                //final result save in text file if exception raised
+                _output.WriteLine(testName + ":Failed");
+                await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_ValidEmail=" + res + "\n");
+                return false;
+            }
             //Assert
-            Assert.True(isEmail);
-            res = isEmail;
-            //final result displaying in text file
+            //final result save in text file, Call rest API to save test result
+            if (res == true)
+            {
+                _output.WriteLine(testName + ":Passed");
+            }
+            else
+            {
+                _output.WriteLine(testName + ":Failed");
+            }
             await File.AppendAllTextAsync("../../../../output_boundary_revised.txt", "Testfor_ValidEmail=" + res + "\n");
+            return false;
         }
     }
 }

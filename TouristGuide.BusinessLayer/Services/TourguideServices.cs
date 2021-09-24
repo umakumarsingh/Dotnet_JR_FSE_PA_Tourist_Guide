@@ -25,7 +25,7 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns>List of Destination</returns>
         public IList<Destination> DestinationList()
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -35,7 +35,7 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Place>> GetAllPlaces(int? Id)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -45,7 +45,7 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<Place> GetPlaceById(int placeId)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -55,7 +55,7 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<TourGuide> HireTourGuide(TourGuide tourGuide)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -64,7 +64,7 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<AboutIndia>> KnowAboutIndia()
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -74,7 +74,7 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<Place>> PlaceByAttraction(string name)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -84,7 +84,7 @@ namespace TouristGuide.BusinessLayer.Services
         /// <returns></returns>
         public async Task<IEnumerable<TourGuide>> TourGuideInformation(int tourId)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
     }

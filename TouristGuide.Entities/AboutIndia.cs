@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace TouristGuide.Entities
 {
     public class AboutIndia
     {
+        [Key]
         public int Id { get; set; }
         public string About { get; set; }
         public string Visa { get; set; }

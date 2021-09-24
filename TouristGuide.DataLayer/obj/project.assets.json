@@ -3004,23 +3004,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KUMARUMA\\.nuget\\packages\\": {},
+    "C:\\Users\\Uma Kumar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_JR_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
+      "projectUniqueName": "D:\\IIHT DATA\\InMemory Artifacts_3.0\\TouristGuide_CleanCode\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
       "projectName": "TouristGuide.DataLayer",
-      "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_JR_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
-      "packagesPath": "C:\\Users\\KUMARUMA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_JR_FSE_PA_Tourist_Guide\\TouristGuide.DataLayer\\obj\\",
+      "projectPath": "D:\\IIHT DATA\\InMemory Artifacts_3.0\\TouristGuide_CleanCode\\TouristGuide.DataLayer\\TouristGuide.DataLayer.csproj",
+      "packagesPath": "C:\\Users\\Uma Kumar\\.nuget\\packages\\",
+      "outputPath": "D:\\IIHT DATA\\InMemory Artifacts_3.0\\TouristGuide_CleanCode\\TouristGuide.DataLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\KUMARUMA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Uma Kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3032,9 +3032,10 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "projectReferences": {
-            "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_JR_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
-              "projectPath": "C:\\Users\\KUMARUMA\\Documents\\GitHub\\Dotnet_JR_FSE_PA_Tourist_Guide\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
+            "D:\\IIHT DATA\\InMemory Artifacts_3.0\\TouristGuide_CleanCode\\TouristGuide.Entities\\TouristGuide.Entities.csproj": {
+              "projectPath": "D:\\IIHT DATA\\InMemory Artifacts_3.0\\TouristGuide_CleanCode\\TouristGuide.Entities\\TouristGuide.Entities.csproj"
             }
           }
         }
@@ -3047,6 +3048,7 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
+        "targetAlias": "netcoreapp2.2",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -3069,7 +3071,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

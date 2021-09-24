@@ -45,50 +45,97 @@ D:\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.cspro
 D:\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.dll
 D:\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.pdb
 D:\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.genruntimeconfig.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\appsettings.Development.json
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\appsettings.json
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.deps.json
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.runtimeconfig.json
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.runtimeconfig.dev.json
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.dll
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.pdb
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Views.dll
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Views.pdb
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.dll
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.dll
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Entities.dll
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.pdb
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.pdb
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Entities.pdb
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csprojAssemblyReference.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.AssemblyInfoInputs.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.AssemblyInfo.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.CoreCompileInputs.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorAssemblyInfo.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorAssemblyInfo.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.TagHelpers.input.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.TagHelpers.output.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorCoreGenerate.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\TopMenu\Default.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\AboutIndia.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\ContactUs.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\Details.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\HireTourGuide.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\Index.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\TourGuideInfo.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorTargetAssemblyInfo.cache
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorTargetAssemblyInfo.cs
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.Views.pdb
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.CopyComplete
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.dll
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.pdb
-C:\Users\KUMARUMA\Documents\GitHub\Dotnet_JR_FSE_PA_Tourist_Guide\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.genruntimeconfig.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\appsettings.json
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.deps.json
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.runtimeconfig.json
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.runtimeconfig.dev.json
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.dll
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.pdb
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Views.dll
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Views.pdb
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.dll
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.dll
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Entities.dll
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.pdb
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.pdb
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Entities.pdb
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.AssemblyReference.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.GeneratedMSBuildEditorConfig.editorconfig
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.AssemblyInfoInputs.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.AssemblyInfo.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.CoreCompileInputs.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorAssemblyInfo.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorAssemblyInfo.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.TagHelpers.input.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.TagHelpers.output.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorCoreGenerate.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\TopMenu\Default.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\AboutIndia.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\ContactUs.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\Details.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\HireTourGuide.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\Index.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\TourGuideInfo.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorTargetAssemblyInfo.cache
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorTargetAssemblyInfo.cs
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.Views.pdb
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.CopyComplete
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.dll
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.pdb
+D:\IIHT DATA\IIHT\Task-11\InMemory\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.genruntimeconfig.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\appsettings.json
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.deps.json
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.runtimeconfig.json
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.runtimeconfig.dev.json
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.dll
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.pdb
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Views.dll
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Views.pdb
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.dll
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.dll
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Entities.dll
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.BusinessLayer.pdb
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.DataLayer.pdb
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\bin\Debug\netcoreapp2.2\TouristGuide.Entities.pdb
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.AssemblyReference.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.GeneratedMSBuildEditorConfig.editorconfig
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.AssemblyInfoInputs.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.AssemblyInfo.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.CoreCompileInputs.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorAssemblyInfo.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorAssemblyInfo.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.TagHelpers.input.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.TagHelpers.output.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorCoreGenerate.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Components\TopMenu\Default.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\AboutIndia.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\ContactUs.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\Details.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\HireTourGuide.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\Index.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\Tourist\TourGuideInfo.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorTargetAssemblyInfo.cache
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.RazorTargetAssemblyInfo.cs
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.Views.pdb
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.csproj.CopyComplete
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.dll
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.pdb
+D:\IIHT DATA\InMemory Artifacts_3.0\TouristGuide_CleanCode\TouristGuide\obj\Debug\netcoreapp2.2\TouristGuide.genruntimeconfig.cache

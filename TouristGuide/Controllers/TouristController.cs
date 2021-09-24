@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using TouristGuide.BusinessLayer.Interfaces;
@@ -29,7 +27,7 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> Index(int? id, string search, int page = 1)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -40,7 +38,7 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(int placeId)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -60,7 +58,7 @@ namespace TouristGuide.Controllers
         [HttpPost]
         public async Task<IActionResult> HireTourGuide(TourGuide tourGuide)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -71,7 +69,7 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> TourGuideInfo(int tourId)
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         /// <summary>
@@ -81,7 +79,7 @@ namespace TouristGuide.Controllers
         [HttpGet]
         public async Task<IActionResult> AboutIndia()
         {
-            //Do code here
+            //do code here
             throw new NotImplementedException();
         }
         [HttpGet]
